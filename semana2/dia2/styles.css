@@ -1,14 +1,131 @@
 h1 {
-    color: blue;
-    font-size: 40px;
+  color: blue;
+  font-size: 40px;
 }
 
 .selector-clase {
-    color: red;
-    font-size: 30px;
+  color: red;
+  font-size: 30px;
 }
 
 #selector-id {
-color: yellowgreen;
-font-size: 24px;
+  color: yellowgreen;
+  font-size: 24px;
 }
+
+button {
+  background-color: red;
+  padding: 10px;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  transition: all 1s ease;
+}
+
+button:hover {
+  background-color: green;
+  border: none;
+}
+
+.pseudo-clase-hover:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.pseudo-clase-link-hover {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.pseudo-clase-link-hover:hover {
+  text-decoration: underline;
+}
+
+.pseudo-clase-link-hover:active {
+  font-size: 30px;
+  color: orange;
+}
+
+.pseudo-clase-link-hover:focus {
+  color: violet;
+  border: 2px s #444;
+}
+
+input:active {
+  background-color: yellow;
+}
+
+input:focus {
+  background-color: blue;
+}
+
+.hijos-pseudo p:first-child {
+  background-color: red;
+}
+
+.hijos-pseudo p:last-child {
+  background-color: blue;
+}
+
+.hijos-pseudo p:nth-child(3) {
+  background-color: orange;
+}
+
+.hijos-pseudo p:nth-child(4) {
+  background-color: tomato;
+}
+
+.hijos-pseudo p:nth-child(2n) {
+  background-color: green;
+}
+
+.hijos-pseudo p:nth-child(2n + 1) {
+  background-color: blueviolet;
+}
+
+.prueba-before::before {
+  content: "hola";
+  color: red;
+  font-size: 20px;
+  width: 12px;
+  height: 12px;
+  background-color: yellow;
+  padding: 6px;
+}
+
+.prueba-after::after {
+    content: 'hola';
+    color: yellow;
+    background-color: blue;
+    width: 12px;
+    height: 12px;
+    padding: 6px;
+}
+
+.prueba-first-letter::first-letter {
+  color: red;
+ font-size: 34px;
+ text-decoration: underline; 
+}
+
+.input1:required {
+  border: 1px solid red;
+}
+
+.input1:valid {
+  background-color: blue;
+  color: white;
+}
+
+.input1:invalid {
+  background-color: red;
+  color: white;
+}
+
+.padre ul li:nth-child(3) {
+background-color: orangered;
+}
+
+.padre ul .selecciona-este-li {
+  background-color: green;
+  }
