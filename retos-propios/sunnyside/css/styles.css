@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+.principal__section {
+    font-family: 'Times New Roman', Times, serif;
+    background: url(../assets/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: auto;
+    height: 80vh|;
+
+}
+
+.nav {
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    color: #fff;
+}
+
+.hero {
+margin-top: 80px;
+text-align: center;
+font-weight: bolder;
+font-size: 50px;
+color: #fff;
+}
+
+.hero > img {
+    padding-top: 80px;
+    height: 70px;
+}

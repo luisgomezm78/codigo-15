@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo con positions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            width: 1000px;
+            margin: 32px auto;
+            background-color: greenyellow;
+            display: flex;
+            gap: 16px;
+        }
+
+        article {
+            border: 1px solid red;
+            width: 300px;
+            padding: 16px;
+        }
+
+.anuncio1 {
+    background-color: violet;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+}
+.anuncio2 {
+background-color: chocolate;
+position:absolute;
+top: 0;
+bottom: 100px;
+}
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="anuncio1">Anuncio 1 (Relative)</div>
+        <div class="anuncio2">Anuncio 2 (Absolute)</div>
+        <article>
+            <h2>My card 1</h2>
+            <p>Este es un card</p>
+        </article>
+        <article>
+            <h2>My card 2</h2>
+            <p>Este es un card</p>
+        </article>
+        <article>
+            <h2>My card 3</h2>
+            <p>Este es un card</p>
+        </article>
+    </main>
+
+
+</body>
+
+</html>
